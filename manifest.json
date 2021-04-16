@@ -2,10 +2,10 @@
   "name": "RC Scripts",
   "description": "Scripts to add functionality to RC sites.",
   "version": "1.0",
-  "manifest_version": 3,
-  "host_permissions": [
-    "https://*.recurse.com/",
-    "https://recurse.rctogether.com/",
-    "https://recurse.zulipchat.com/"
+  "manifest_version": 2,
+  "permissions": [
+    "*://*.recurse.com/*",
+    "*://recurse.rctogether.com/*",
+    "*://recurse.zulipchat.com/*"
   ]
 }
