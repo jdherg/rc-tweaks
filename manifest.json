@@ -7,5 +7,14 @@
     "*://*.recurse.com/*",
     "*://recurse.rctogether.com/*",
     "*://recurse.zulipchat.com/*"
-  ]
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://recurse.rctogether.com/*"
+      ],
+      "js": ["distinct_favicons/distinct_favicons.js"]
+    }
+  ],
+  "web_accessible_resources": ["distinct_favicons/virtual_rc.ico"]
 }
