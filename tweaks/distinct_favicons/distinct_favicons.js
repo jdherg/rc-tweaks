@@ -9,7 +9,7 @@ function setFavicon(favicon_path) {
         link.rel = 'icon';
         document.getElementsByTagName('head')[0].appendChild(link);
     }
-    link.href = chrome.runtime.getURL("distinct_favicons/" + favicon_path);
+    link.href = chrome.runtime.getURL("tweaks/distinct_favicons/" + favicon_path);
 }
 const currentURL = window.location.href;
 for (const [matcher, path] of urlMatcherToFavicon) {

@@ -13,8 +13,8 @@
       "matches": [
         "*://recurse.rctogether.com/*"
       ],
-      "js": ["distinct_favicons/distinct_favicons.js"]
+      "js": ["tweaks/distinct_favicons/distinct_favicons.js"]
     }
   ],
-  "web_accessible_resources": ["distinct_favicons/virtual_rc.ico"]
+  "web_accessible_resources": ["tweaks/distinct_favicons/virtual_rc.ico"]
 }
